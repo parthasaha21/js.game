@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.para{
+    color: chocolate;
+    font-size: 25px;
+}
+.myClass{
+   background-color: black;
+}
+
+.active{
+    background-color: black;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    padding:40px;
+}
+.hover{
+   background-color: orange;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 100px;
+}
+.images img{
+    height: 200px;
+    border-radius: 50%;
+    transition: ease-in-out 0.3s;
+}
+.images img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+.score{
+   font-size: 30px;
+   font-weight: 600;
+}
+#massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   font-weight: 600;
+   margin-top: 50px;
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   padding: 20px  30px;
+}
+.massage-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+}
